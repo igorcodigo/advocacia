@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Silva & Associados Advogados — Soluções jurídicas com excelência e ética. Direito Civil, Trabalhista e Empresarial. Agende sua consulta agora." />
+    <meta name="keywords"
+        content="advogado, escritório de advocacia, direito civil, direito trabalhista, direito empresarial, consulta jurídica" />
+    <meta property="og:title" content="Silva & Associados Advogados" />
+    <meta property="og:description" content="Soluções jurídicas com excelência e ética." />
+
+    <title>Silva &amp; Associados Advogados</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ===================================================
+     HEADER / NAV
+=================================================== -->
+    <header id="header" role="banner">
+        <div class="container">
+            <nav class="nav-inner" aria-label="Navegação principal">
+
+                <!-- Logo -->
+                <a href="#hero" class="logo" aria-label="Silva &amp; Associados — ir para o início">
+                    <div class="logo-icon" aria-hidden="true">
+                        <!-- Gavel SVG -->
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.5 21.5l7-7m0 0l4-4-4-4-4 4 4 4zm7-7l2-2m0 0l1.5-1.5L18 5l-3 3-1.5 1.5 2 2z"
+                                stroke="#0d1b2e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                fill="none" />
+                        </svg>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-name">Silva &amp; Associados</span>
+                        <span class="logo-tagline">Advocacia &amp; Consultoria Jurídica</span>
+                    </div>
+                </a>
+
+                <!-- Desktop links -->
+                <ul class="nav-links" role="list">
+                    <li><a href="#hero" id="nav-home">Home</a></li>
+                    <li><a href="#sobre" id="nav-sobre">Sobre</a></li>
+                    <li><a href="#areas" id="nav-areas">Áreas de Atuação</a></li>
+                    <li><a href="#depoimentos" id="nav-dep">Depoimentos</a></li>
+                    <li><a href="#contato" id="nav-contato">Contato</a></li>
+                    <li><a href="#contato" class="btn btn-primary nav-cta" id="nav-cta">Agendar Consulta</a></li>
+                </ul>
+
+                <!-- Hamburger -->
+                <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
+
+            </nav>
+
+            <!-- Mobile Nav -->
+            <nav class="mobile-nav" id="mobileNav" aria-label="Navegação mobile">
+                <a href="#hero">Home</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#areas">Áreas de Atuação</a>
+                <a href="#depoimentos">Depoimentos</a>
+                <a href="#contato">Contato</a>
+                <a href="#contato" class="btn btn-primary" style="margin-top:.5rem;justify-content:center;">Agendar
+                    Consulta</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===================================================
+     HERO
+=================================================== -->
+    <section id="hero" aria-label="Apresentação do escritório">
+        <div class="container">
+            <div class="hero-inner">
+
+                <!-- Copy -->
+                <div class="hero-copy">
+                    <div class="hero-eyebrow">
+                        <span>Advocacia de Excelência</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        Defendemos Seus<br>
+                        <em>Direitos</em> com<br>
+                        Dedicação Total
+                    </h1>
+
+                    <p class="hero-subtitle">
+                        Há mais de 15 anos oferecemos soluções jurídicas personalizadas, com ética, transparência e
+                        resultados que transformam vidas.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#contato" class="btn btn-primary" id="hero-cta-primary">
+                            📅 Agendar Consulta Gratuita
+                        </a>
+                        <a href="#sobre" class="btn btn-outline" id="hero-cta-secondary">
+                            Conheça o Escritório
+                        </a>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-value">+15</div>
+                            <div class="stat-label">Anos de Experiência</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">98%</div>
+                            <div class="stat-label">Casos Bem-Sucedidos</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">+800</div>
+                            <div class="stat-label">Clientes Atendidos</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image -->
+                <figure class="hero-image-wrap">
+                    <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80"
+                        alt="Advogado em ambiente de trabalho moderno com livros jurídicos ao fundo" width="800"
+                        height="500" loading="eager"
+                        onerror="this.src='https://placehold.co/800x500/0d1b2e/c9a84c?text=Silva+%26+Associados'" />
+                    <div class="hero-badge" aria-label="Avaliação OAB A+">
+                        <div class="hero-badge-value">A+</div>
+                        <div class="hero-badge-label">OAB Avaliação</div>
+                    </div>
+                    <figcaption class="sr-caption">Escritório Silva &amp; Associados — ambiente profissional e moderno
+                    </figcaption>
+                </figure>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================================================
+     SOBRE
+=================================================== -->
+    <section id="sobre" aria-label="Sobre o escritório">
+        <div class="container">
+            <div class="sobre-inner">
+
+                <!-- Photo -->
+                <figure class="sobre-img-wrap reveal">
+                    <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?w=600&q=80"
+                        alt="Dr. Carlos Silva, advogado sênior e fundador do escritório" width="600" height="520"
+                        loading="lazy"
+                        onerror="this.src='https://placehold.co/600x520/0d1b2e/c9a84c?text=Dr.+Carlos+Silva'" />
+                    <div class="sobre-img-accent" aria-hidden="true"></div>
+                    <figcaption class="sr-caption">Dr. Carlos Silva — Fundador e Advogado Sênior</figcaption>
+                </figure>
+
+                <!-- Content -->
+                <div class="sobre-content reveal" data-delay="150">
+                    <span class="section-tag">Sobre o Escritório</span>
+                    <h2 class="section-title">Comprometidos com a sua Justiça</h2>
+                    <p class="section-subtitle">
+                        Fundado em 2009, o escritório <strong>Silva &amp; Associados</strong> tem como missão oferecer
+                        assessoria jurídica de alto nível, combinando profundo conhecimento técnico com atendimento
+                        humanizado e próximo ao cliente.
+                    </p>
+
+                    <ul class="sobre-list">
+                        <li>Equipe formada por advogados especialistas em diversas áreas</li>
+                        <li>Atuação em todo o território nacional</li>
+                        <li>Parceria com conceituados escritórios internacionais</li>
+                        <li>Transparência total em honorários e prazos</li>
+                        <li>Atendimento presencial, online e pelo WhatsApp</li>
+                    </ul>
+
+                    <div class="oab-badge" role="complementary" aria-label="Informações OAB">
+                        <div class="oab-badge-icon" aria-hidden="true">⚖️</div>
+                        <div class="oab-badge-text">
+                            <strong>Dr. Carlos Eduardo Silva</strong>
+                            <span>OAB/SP 123.456 — Mestre em Direito Civil (USP)</span>
+                        </div>
+                    </div>
+
+                    <div style="margin-top:2rem;">
+                        <a href="#contato" class="btn btn-dark" id="sobre-cta">Fale Conosco</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================================================
+     ÁREAS DE ATUAÇÃO
+=================================================== -->
+    <section id="areas" aria-label="Áreas de atuação do escritório">
+        <div class="container">
+
+            <div class="areas-header reveal">
+                <span class="section-tag">Especialidades</span>
+                <h2 class="section-title">Áreas de Atuação</h2>
+                <p class="section-subtitle">
+                    Atendemos com excelência nas principais áreas do direito, sempre focados em encontrar a melhor
+                    solução para cada caso.
+                </p>
+            </div>
+
+            <div class="areas-grid">
+
+                <!-- Card 1 -->
+                <article class="area-card reveal" data-delay="0">
+                    <div class="area-icon" aria-hidden="true">⚖️</div>
+                    <h3 class="area-title">Direito Civil</h3>
+                    <p class="area-desc">
+                        Contratos, responsabilidade civil, família, herança e inventário. Protegemos seus bens e
+                        direitos com rigor técnico e estratégia precisa.
+                    </p>
+                    <a href="#contato" class="area-link" id="area-civil-link">Saiba mais →</a>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="area-card reveal" data-delay="100">
+                    <div class="area-icon" aria-hidden="true">👷</div>
+                    <h3 class="area-title">Direito Trabalhista</h3>
+                    <p class="area-desc">
+                        Atuamos na defesa de trabalhadores e empresas: rescisões, horas extras, assédio moral, acordos
+                        coletivos e reclamações trabalhistas.
+                    </p>
+                    <a href="#contato" class="area-link" id="area-trabalhista-link">Saiba mais →</a>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="area-card reveal" data-delay="200">
+                    <div class="area-icon" aria-hidden="true">🏢</div>
+                    <h3 class="area-title">Direito Empresarial</h3>
+                    <p class="area-desc">
+                        Abertura de empresas, contratos comerciais, fusões e aquisições, recuperação judicial e
+                        compliance para blindar seu negócio.
+                    </p>
+                    <a href="#contato" class="area-link" id="area-empresarial-link">Saiba mais →</a>
+                </article>
+
+                <!-- Card 4 -->
+                <article class="area-card reveal" data-delay="0">
+                    <div class="area-icon" aria-hidden="true">🏠</div>
+                    <h3 class="area-title">Direito Imobiliário</h3>
+                    <p class="area-desc">
+                        Compra, venda e locação de imóveis, usucapião, ações possessórias e regularização fundiária com
+                        segurança jurídica plena.
+                    </p>
+                    <a href="#contato" class="area-link" id="area-imob-link">Saiba mais →</a>
+                </article>
+
+                <!-- Card 5 -->
+                <article class="area-card reveal" data-delay="100">
+                    <div class="area-icon" aria-hidden="true">🛡️</div>
+                    <h3 class="area-title">Direito do Consumidor</h3>
+                    <p class="area-desc">
+                        Cobrança indevida, produtos defeituosos, dano moral e ações contra planos de saúde, bancos e
+                        seguradoras.
+                    </p>
+                    <a href="#contato" class="area-link" id="area-consumidor-link">Saiba mais →</a>
+                </article>
+
+                <!-- Card 6 -->
+                <article class="area-card reveal" data-delay="200">
+                    <div class="area-icon" aria-hidden="true">👨‍👩‍👧</div>
+                    <h3 class="area-title">Direito de Família</h3>
+                    <p class="area-desc">
+                        Divórcio, guarda de filhos, pensão alimentícia, adoção e união estável, sempre com sensibilidade
+                        e profissionalismo.
+                    </p>
+                    <a href="#contato" class="area-link" id="area-familia-link">Saiba mais →</a>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================================================
+     DEPOIMENTOS
+=================================================== -->
+    <section id="depoimentos" aria-label="Depoimentos de clientes">
+        <div class="container">
+
+            <div class="dep-header reveal">
+                <span class="section-tag" style="color:var(--gold);">Clientes Satisfeitos</span>
+                <h2 class="section-title">O Que Nossos Clientes Dizem</h2>
+            </div>
+
+            <div class="dep-grid">
+
+                <article class="dep-card reveal" data-delay="0">
+                    <div class="dep-stars" aria-label="5 estrelas">★★★★★</div>
+                    <p class="dep-text">
+                        "O Dr. Carlos foi fundamental para resolver minha ação trabalhista. Sempre me manteve informado
+                        e o resultado superou minhas expectativas. Recomendo muito!"
+                    </p>
+                    <div class="dep-author">
+                        <img src="https://placehold.co/46x46/c9a84c/0d1b2e?text=RM" alt="Foto de Roberto Mendes"
+                            width="46" height="46" />
+                        <div>
+                            <div class="dep-name">Roberto Mendes</div>
+                            <div class="dep-role">Engenheiro Civil</div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="dep-card reveal" data-delay="120">
+                    <div class="dep-stars" aria-label="5 estrelas">★★★★★</div>
+                    <p class="dep-text">
+                        "Profissionalismo e competência excepcionais. A equipe cuidou do divórcio com muito respeito e
+                        agilidade. Fui muito bem amparada em um momento difícil."
+                    </p>
+                    <div class="dep-author">
+                        <img src="https://placehold.co/46x46/c9a84c/0d1b2e?text=AP" alt="Foto de Ana Paula Rodrigues"
+                            width="46" height="46" />
+                        <div>
+                            <div class="dep-name">Ana Paula Rodrigues</div>
+                            <div class="dep-role">Professora</div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="dep-card reveal" data-delay="240">
+                    <div class="dep-stars" aria-label="5 estrelas">★★★★★</div>
+                    <p class="dep-text">
+                        "Contratei para estruturar minha empresa e o suporte foi impecável. Desde a abertura até o
+                        contrato social personalizado. Escritório altamente recomendado!"
+                    </p>
+                    <div class="dep-author">
+                        <img src="https://placehold.co/46x46/c9a84c/0d1b2e?text=FC" alt="Foto de Fábio Costa" width="46"
+                            height="46" />
+                        <div>
+                            <div class="dep-name">Fábio Costa</div>
+                            <div class="dep-role">Empresário</div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================================================
+     CONTATO
+=================================================== -->
+    <section id="contato" aria-label="Formulário de contato">
+        <div class="container">
+
+            <div class="contato-inner">
+
+                <!-- Info -->
+                <div class="contato-info reveal">
+                    <span class="section-tag">Fale Conosco</span>
+                    <h2 class="section-title">Entre em Contato</h2>
+                    <p class="section-subtitle">
+                        Agende sua consulta jurídica inicial. Nossa equipe retornará em até 24 horas. O primeiro
+                        atendimento é gratuito.
+                    </p>
+
+                    <div style="margin-top:2.5rem;">
+
+                        <div class="info-item">
+                            <div class="info-icon" aria-hidden="true">📍</div>
+                            <div>
+                                <div class="info-label">Endereço</div>
+                                <div class="info-value">Av. Paulista, 1234, Sala 56<br>Bela Vista — São Paulo / SP</div>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon" aria-hidden="true">📞</div>
+                            <div>
+                                <div class="info-label">Telefone</div>
+                                <div class="info-value">(11) 3456-7890</div>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon" aria-hidden="true">✉️</div>
+                            <div>
+                                <div class="info-label">E-mail</div>
+                                <div class="info-value">contato@silvaadvogados.com.br</div>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon" aria-hidden="true">🕐</div>
+                            <div>
+                                <div class="info-label">Horário de Atendimento</div>
+                                <div class="info-value">Segunda a Sexta: 8h às 18h<br>Sábado: 9h às 13h</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <a href="https://wa.me/5511999998888?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta."
+                        class="whatsapp-btn" id="whatsapp-link" target="_blank" rel="noopener noreferrer"
+                        aria-label="Abrir conversa no WhatsApp">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z" />
+                        </svg>
+                        Falar pelo WhatsApp
+                    </a>
+                </div>
+
+                <!-- Form -->
+                <div class="reveal" data-delay="150">
+                    <form class="contact-form" id="contactForm" novalidate aria-label="Formulário de contato">
+                        <h3
+                            style="font-family:'Playfair Display',serif;font-size:1.4rem;color:var(--navy);margin-bottom:1.8rem;">
+                            Solicite uma Consulta
+                        </h3>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nome">Nome Completo *</label>
+                                <input type="text" id="nome" name="nome" placeholder="Seu nome completo"
+                                    autocomplete="name" />
+                                <span class="field-error" id="nome-error" role="alert">Digite ao menos 3
+                                    caracteres.</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail *</label>
+                                <input type="email" id="email" name="email" placeholder="seu@email.com"
+                                    autocomplete="email" />
+                                <span class="field-error" id="email-error" role="alert">Informe um e-mail válido.</span>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="telefone">Telefone / WhatsApp *</label>
+                                <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999"
+                                    autocomplete="tel" maxlength="16" />
+                                <span class="field-error" id="telefone-error" role="alert">Informe um telefone
+                                    válido.</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="area">Área de Interesse</label>
+                                <select id="area" name="area">
+                                    <option value="">Selecione uma área</option>
+                                    <option value="civil">Direito Civil</option>
+                                    <option value="trabalhista">Direito Trabalhista</option>
+                                    <option value="empresarial">Direito Empresarial</option>
+                                    <option value="imobiliario">Direito Imobiliário</option>
+                                    <option value="consumidor">Direito do Consumidor</option>
+                                    <option value="familia">Direito de Família</option>
+                                    <option value="outro">Outro</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensagem">Descreva Brevemente Seu Caso *</label>
+                            <textarea id="mensagem" name="mensagem"
+                                placeholder="Conte-nos sobre sua situação para que possamos orientá-lo da melhor forma…"></textarea>
+                            <span class="field-error" id="mensagem-error" role="alert">Escreva ao menos 10
+                                caracteres.</span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" id="form-submit"
+                            style="width:100%;justify-content:center;padding:1rem;">
+                            Enviar Mensagem
+                        </button>
+
+                        <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+
+                        <p style="font-size:.78rem;color:var(--gray);margin-top:1rem;text-align:center;">
+                            🔒 Seus dados estão protegidos e jamais serão compartilhados com terceiros.
+                        </p>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================================================
+     FOOTER
+=================================================== -->
+    <footer id="footer" role="contentinfo">
+        <div class="container">
+
+            <div class="footer-inner">
+
+                <!-- Brand -->
+                <div class="footer-brand">
+                    <a href="#hero" class="logo" style="margin-bottom:.5rem;"
+                        aria-label="Silva &amp; Associados — início">
+                        <div class="logo-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.5 21.5l7-7m0 0l4-4-4-4-4 4 4 4zm7-7l2-2m0 0l1.5-1.5L18 5l-3 3-1.5 1.5 2 2z"
+                                    stroke="#0d1b2e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    fill="none" />
+                            </svg>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-name">Silva &amp; Associados</span>
+                            <span class="logo-tagline" style="color:var(--gold);">Advocacia &amp; Consultoria
+                                Jurídica</span>
+                        </div>
+                    </a>
+                    <p>
+                        Comprometidos em oferecer soluções jurídicas de excelência com ética, transparência e resultados
+                        reais para nossos clientes.
+                    </p>
+                </div>
+
+                <!-- Quick links -->
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <a href="#hero">Home</a>
+                    <a href="#sobre">Sobre o Escritório</a>
+                    <a href="#areas">Áreas de Atuação</a>
+                    <a href="#depoimentos">Depoimentos</a>
+                    <a href="#contato">Contato</a>
+                </div>
+
+                <!-- Areas -->
+                <div class="footer-col">
+                    <h4>Especialidades</h4>
+                    <a href="#areas">Direito Civil</a>
+                    <a href="#areas">Direito Trabalhista</a>
+                    <a href="#areas">Direito Empresarial</a>
+                    <a href="#areas">Direito Imobiliário</a>
+                    <a href="#areas">Direito de Família</a>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    &copy; <span id="year"></span> Silva &amp; Associados Advogados. OAB/SP 123.456. Todos os direitos
+                    reservados.
+                </p>
+                <div class="social-links" aria-label="Redes sociais">
+                    <a href="#" aria-label="Instagram" title="Instagram">📷</a>
+                    <a href="#" aria-label="LinkedIn" title="LinkedIn">💼</a>
+                    <a href="#" aria-label="Facebook" title="Facebook">📘</a>
+                    <a href="#contato" aria-label="WhatsApp" title="WhatsApp">💬</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Scroll to top -->
+    <button id="scrollTop" aria-label="Voltar ao topo">↑</button>
+
+    <script>
+        /* Year auto-update */
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
